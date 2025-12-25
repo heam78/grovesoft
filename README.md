@@ -32,6 +32,10 @@ npm run build
 npm run preview
 ```
 
+## Mock API
+
+- 이벤트 정보 조회:  'https://6948eac91ee66d04a45081ef.mockapi.io/api/vi/event'
+- 응모 데이터 제출:  'https://6948eac91ee66d04a45081ef.mockapi.io/api/vi/entries'
 ## 사용한 라이브러리 및 선택 이유
 
 ### 핵심 프레임워크
@@ -57,6 +61,8 @@ npm run preview
   - ESBuild 기반의 빠른 번들링 속도
   - 최적화된 프로덕션 빌드 생성
   - Vue 3와의 공식 통합으로 안정적인 개발 환경 제공
+
+> 본 프로젝트는 **Node.js v20.19 이상** 환경에서 개발되었습니다
 
 ### 스타일링
 
@@ -85,6 +91,11 @@ npm run preview
   - 세그먼트별 색상, 텍스트 커스터마이징 가능
   - 정확한 회전 각도 제어를 통한 공정한 게임 결과 제공
   - GSAP와의 통합을 위해 TweenMax/TweenLite 호환 레이어 구현
+ 
+## 개발 환경
+
+- Node.js v20.19 이상
+- npm v10 이상
 
 ### 개발 도구
 
